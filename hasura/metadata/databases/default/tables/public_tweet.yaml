@@ -1,3 +1,11 @@
 table:
   name: tweet
   schema: public
+object_relationships:
+  - name: user
+    using:
+      foreign_key_constraint_on:
+        column: tweet_id
+        table:
+          name: users
+          schema: public

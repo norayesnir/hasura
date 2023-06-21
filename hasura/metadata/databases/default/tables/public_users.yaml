@@ -1,3 +1,7 @@
 table:
   name: users
   schema: public
+object_relationships:
+  - name: tweet
+    using:
+      foreign_key_constraint_on: tweet_id

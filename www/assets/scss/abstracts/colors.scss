@@ -1,0 +1,25 @@
+:root { // Dimmed mode
+  --foreground: rgb(255, 255, 255);
+  --background: rgb(21, 32, 43);
+
+  --icon-foreground: invert(100%) sepia(0%) saturate(25%) hue-rotate(70deg) brightness(108%) contrast(108%);
+  --icon-background: initial;
+
+  --gray: rgb(139, 152, 165);
+  --border-color: rgb(56, 68, 77);
+
+  --blue: rgb(29, 155, 240);
+
+  --hover-bg: rgba(239, 243, 244, 0.1);
+}
+
+.dark-mode{
+  --foreground: rgb(255, 255, 255);;
+  --background: rgb(0, 0, 0);;
+  --hover-bg: rgba(239, 243, 244, 0.1)
+}
+
+.light-mode{
+  --foreground: rgb(0, 0, 0);
+  --background: rgb(255, 255, 255);
+}
